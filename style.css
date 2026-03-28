@@ -1,12 +1,88 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+p {
+  letter-spacing: 0%;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+header {
+  height: 382px;
+}
+main {
+  height: 450px;
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+  background-color: hsl(0deg, 0%, 40%);
+}
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 24px;
+  padding-right: 24px; */
+}
+
+.intro-chunk {
+  margin-bottom: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 96px;
+  max-width: 412px;
+}
+
+.title {
+  margin-bottom: 48px;
+}
+
+.card {
+  margin-top: 80px;
+  padding-top: 8px;
+  background-color: white;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
+.card p {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.card p:last-child {
+  margin-bottom: 24px;
+}
+.indented-heading {
+  width: fit-content;
+  margin-left: -8px;
+  padding: 16px 32px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
